@@ -1,0 +1,47 @@
+class: Thinker
+costumes:
+- chatcolor: '&2'
+  name: §2TI§ah§2i§an§2k§ae§2r
+  sig: hZ14AO76FS8L4jCAlZFK84Bcv86mr0k1rzhTyBDy+N9m5EknWSDm+bdxplQu+Mxyv/TE68ToA27rGc7mFcrp1yQh1ndBsL+JxZsbBMaZKYd+R47++xE/7S16RJLXAgoRQXKXAj5DjsMPYjeCAcOC6FSO8Hg3kg2S4nOEmvkvGoVw5S86ClvWn5BRn/XWJEC9vpc+sHYL5XBUNbXcCUF3sDPSrMHawM8l/x5QMWNsWf1xszxCt3n7Yzi4crwqHBJLz8UlC3L+9ykMEeKolt/iO+SwPviCyLF6TzQpYX5ZliqurvdPz8G70hkr6jiVP87egn7yO9xx26bVmB8RTFJcn8ZDXppDLChdmfb8gb3o8jtnHAwJ54P4hOwpx7A8IVThx4lunSBZ+/htov5FodFSf4rACS2L04kSbfwfGTQahdLqq6KND6SWt1sKa5qmTem7rx2ukCMK9V0vNZII7790dT5f8qn/i0x0PIE1j+vxXyjanHPKgufZr4iHyWk02xvVjVVA9rCcbuf4N2bjxi8GahxqUp9EhQqKAX8wWqqNAoUpjoF3hAKcCJemYFoE2fRPqlGjIGG1TXIWI+zipKuOSZ2V7gV/dKcbpLrAUaKQlTdmpRxLzE2f0/MKC6o7W3+JOv6rQBw1cJg5DbnipEn/s7ZYQgo/KAHkZkeOnrfWBUs=
+  val: eyJ0aW1lc3RhbXAiOjE1MjkwMTQ3NjM4NTAsInByb2ZpbGVJZCI6Ijc2N2VlMTc3N2FmNzQwNjBiYTEwNGExZjE0MWEwNzYyIiwicHJvZmlsZU5hbWUiOiJCdWJieTUxMDEiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY2NTY4ZmUxN2VhZTRkMGU3NDliNjZkZTgyMzk1OGRlMzY3MTcxNWY1ZTE5NTVkMTY0NDIyZmNkZDI4NjQzYTYifX19
+  op: true
+effects:
+- /effect <plr> 5 9999 20 true
+- /effect <plr> 11 9999 4 true
+- /effect <plr> 13 9999 1 true
+haste: 9
+items: [
+  ]
+jump: 9
+permissions:
+  superherocity:
+  - ch.alias.create
+  - headdb.open
+  - headdb.category.*
+  - headdb.free.*
+  - ch.alias.tp
+  - libsdisguises.disguise
+  - libsdisguises.undisguise
+  - essentials.back
+  - -essentials.protect.damage.fall
+  - essentials.tppos
+  - essentials.fly
+powers:
+- /effects
+- /items
+- /jump 0-9
+- /run 0-9
+- /haste 0-9
+- /fly
+- /disguise
+- /create <item> <quantity> <color>
+- /headdb
+- /undisguise
+- /disguiseviewself
+- /back
+- /tppos <x> <y> <z>
+- /tp
+run: 9
+speech: The World Needs Fixing.
+trail: [
+  ]
